@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册-个人用户</title>
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <script src="JQuery/jquery.js"></script>
+    <link href='CSS/main.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div class="regist"> 
+        <div class="mc">
+            <form id="personRegForm" class="form" action="login.html" method="POST" onsubmit="return validateForm();">
+                <div class="item">
+                    <span class="label">用户名：</span>
+                    <div class="input">
+                        <input type="text" id="username" name="username" class="text">
+                       
+                        <label id="username_msg" class="hide"></label>
+                    </div>
+                </div>
+                <div class="item">
+                    <span class="label">请设置密码：</span>
+                    <div class="input">
+                        <input type="password" id="password" name="password" class="text">
+                        
+                        <label id="pwd_msg" class="hide"></label>
+                    </div>
+                </div>
+                <div class="item">
+                    <span class="label">请确认密码：</span>
+                    <div class="input">
+                        <input type="password" id="pwdRepeat" name="pwdRepeat" class="text">
+                       
+                        <label id="pwdRepeat_msg" class="hide"></label>
+                    </div>
+                </div>
+                <div class="item">
+                    <span class="label">验证邮箱：</span>
+                    <div class="input">
+                        <input type="text" id="mail" name="mail" class="text">
+                        
+                        <label id="mail_msg" class="hide"></label>
+                    </div>
+                </div>
+                <div class="item">
+                    <span class="label">&nbsp;</span>
+                    <input type="submit" class="btn-img" id="registsubmit" value="立即注册" />
+                </div>
+            </form>
+        </div>   
+    </div>
+    <script src="JS/main.js"></script>
+</body>
+</html>
