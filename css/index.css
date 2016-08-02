@@ -914,6 +914,18 @@ aside b {
 #contact_message2 {
 	display: none;
 }
+
+.download{
+	height:60px;
+	width:200px;
+	background:#E9967A;
+	margin:10px auto;
+}
+.download p{
+	font-size:30px;
+	text-align:center;
+	vertical-align:middle;
+}
 footer {
 	position: absolute;
 	bottom: 0;
